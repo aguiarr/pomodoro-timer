@@ -1,0 +1,35 @@
+{
+  "name": "tomato",
+  "version": "0.1.0",
+  "description": "Pomodoro Timer",
+  "homepage": "/src/index.html",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Matheus Aguiar <aguiartgv@gmail.com>",
+  "repository": "https://github.com/aguiarr/pomodoro-timer",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "10.1.5",
+    "electron-builder": "^22.8.1"
+  },
+  "dependencies": {
+    "nodejs": "0.0.0",
+    "yarn": "^1.22.10"
+  },
+  "build": {
+    "appId": "com.aguiar.pomodoro-timer",
+    "linux": {
+      "target": [
+        "deb"
+      ],
+      "icon": "src/img/icon.png",
+      "category": "Ultility"
+    }
+  },
+  "postinstall": "electron-builder install-app-deps"
+}

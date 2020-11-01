@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/Montserrat.zip" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tomato</title>
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="img/tomato.jpg" alt="Tomato">
+            <h1>Pomodoro Timer</h1>
+        </div>
+        <audio src="sounds/alarm.mp3"></audio>
+        <div class="settings">
+            <div class="input-time">
+                <div class="pomodoro-div">
+                    <label for="pomodoro">Pomodoro</label>
+                    <input type="number" name="pomodoro" id="pomodoro" class="txt" max="60" min="1" value="20">
+                </div>
+                <div class="break-div">
+                    <label for="short-break">Break time</label>
+                    <input type="number" name="short-break" id="break" class="txt" max="60" min="1" value="5">
+                </div>
+                <div class="interval-div">
+                    <label for="interval">Count</label>
+                    <input type="number" name="count" id="count" class="txt" min="1" value="3">
+                </div>
+            </div><!-- input-time-->
+        </div><!-- settings -->
+        <div class="timer-div">
+            <div class="count-div">
+                <span id="timer">00:00</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="btn-timer">
+                <div class="start-btn">
+                    <a class="init"><img id="play-pause" src="img/icons/start.png" alt="Start"></a>
+                </div>
+                <div class="pause-btn">
+                    <!-- <a class="pause"><img src="img/icons/pause.png" alt="Pause"></a> -->
+                </div>
+                <div class="reset-btn">
+                    <a id="reset"><img src="img/icons/reset.png" alt="Reset"></a>
+                </div>
+            </div><!-- btn-timer -->
+        </div><!-- main -->
+    </div><!-- container -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

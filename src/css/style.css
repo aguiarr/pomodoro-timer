@@ -1,0 +1,108 @@
+body{
+    background:#ff4d4d;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+.container{
+    position: absolute;
+}
+.title{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 1.4em;
+}
+.title img{
+    width: 70px;
+    margin-right: 10px;
+}
+.input-time{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.input-time div{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.input-time label{
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-justify: center;
+    text-align: center;
+}
+.txt{
+    border-radius: 3px;
+    border:none;
+    width: 70px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+    font-size: 25px;
+    text-align: center;
+    text-justify: center;
+    padding-left: 5px;
+}
+
+
+.timer-div{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.count-div{
+    border:solid;
+    border-color: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    text-justify: center;
+    font-size: 50px; 
+}
+.count-div span{
+    margin-top: 5px;
+    display: block;
+    text-justify: center;
+    text-align: center;
+    color: white;
+}
+
+.main{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-timer{
+    margin-top: 30px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn-timer a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn-timer a:hover{
+    cursor: pointer;
+}
+
